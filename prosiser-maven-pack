@@ -1,0 +1,46 @@
+To help you practice using Maven with the Spring Petclinic project, I can guide you through setting up the project on GitHub. Here's how you can do it:
+
+### Step 1: Fork the Spring Petclinic Repository
+1. **Go to the [Spring Petclinic GitHub repository](https://github.com/spring-projects/spring-petclinic)**.
+2. Click on the **Fork** button on the top right to create your own copy of the repository under your GitHub account.
+
+### Step 2: Clone Your Forked Repository
+1. Open your terminal.
+2. Clone the repository using the following command (replace `YOUR_USERNAME` with your GitHub username):
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/spring-petclinic.git
+   ```
+3. Navigate to the project directory:
+   ```bash
+   cd spring-petclinic
+   ```
+
+### Step 3: Set Up Maven
+1. Ensure you have Maven installed. You can check by running:
+   ```bash
+   mvn -v
+   ```
+   If Maven is not installed, follow the [Maven installation guide](https://maven.apache.org/install.html).
+
+### Step 4: Build the Project with Maven
+1. In the root directory of your project, run the following command to package the project:
+   ```bash
+   mvn package
+   ```
+2. Maven will compile the project, run tests, and create a package (usually a `.jar` or `.war` file depending on the project).
+
+### Step 5: Run the Application
+1. After packaging, you can run the application using Maven:
+   ```bash
+   mvn spring-boot:run
+   ```
+
+### Step 6: Push Changes to GitHub
+1. After making any changes, add, commit, and push them to your GitHub repository:
+   ```bash
+   git add .
+   git commit -m "Initial Maven package setup"
+   git push origin main
+   ```
+
+Now your Spring Petclinic project is on GitHub, and you’ve practiced using Maven to package the project. If you need further assistance, feel free to ask!
